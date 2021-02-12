@@ -1,0 +1,43 @@
+
+
+body {
+  background-image: url(https://images2.alphacoders.com/870/870886.jpg);
+  width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+  color:#848ca4;
+
+}
+
+form {
+    background-color: #081693;
+    width: 500px;
+    margin: auto;
+    border-color: #e1287e;
+    border-style: solid ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 2.5rem ;
+  
+    
+     
+}
+#email-label {
+  padding-left: 3px;
+}
+
+#number-label {
+  padding-left: 3px;
+}
+
+h1  {
+  text-align: center;
+}
+p
+
+#decription {
+  text-align: center;
+  margin-right: 20px;
+ 
+}
+

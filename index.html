@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replicant Survey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1 id="title">Replicant Test</h1>
+    <p id="description">Take the test Below</p>
+   
+                        <!--beginning of survey-->
+    <form id="survey-form">
+       <br>
+        <label for="name" id="name-label">Name</label>
+        <input id="name-" type="text" name="name" placeholder="Decker" required></input>
+        <br>
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="text" name="email" placeholder="@bladerunner" required></input>
+        <br>
+        <br>
+       
+                        <!--Number-->
+
+        <label for="Number" id="number-label">Number</label>
+        <input id="Number" type="number" name="00" placeholder="Number" min="21" max="50" required></input>
+        <br>
+
+       
+                        <!--Questions -->
+        <label for="dropdown" id="questions">Answer Questons</label>
+        <select id="dropdown">
+            <option value="question1">Question1</option>
+            <option value="question1">Question1</option>
+            <option value="question1">Question1</option>
+            <option value="question1">Question1</option>
+
+
+
+        </select>
+        <br>
+        <br>
+       
+                            <!--Colors -->
+        <label for="favorite-color">choose a color</label>
+        <br>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color-red" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                red
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color-blue" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                blue
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color-green" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                green
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color-yellow" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Yellow
+            </label>
+        </div>
+        <br>
+       
+                    <!--Checkbox-->
+        <label for="test-question">The test has started</label>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+            </label>
+        </div>
+
+                    <!--Concerns-->
+        <label id="text-area">Concerns</label>
+
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="width: 200px" ></textarea>
+            <label for="floatingTextarea2">Concerns</label>
+        </div>
+
+        </div>
+        <br>
+        <button id="submit">submit</button>
+        <br>
+
+    </form>
+
+</body>
+
+</html>
